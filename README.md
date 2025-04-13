@@ -1,73 +1,126 @@
-# Welcome to your Lovable project
+# Campus Bridge – Integrated Academic LMS + Coding Skill Development Platform
 
-## Project info
+**Project Title:** Campus Bridge  
+**Selected Domain:** Education Technology, Web Development
 
-**URL**: https://lovable.dev/projects/c2587b2c-d421-440e-8c73-3f977c05bbbf
+## Introduction
+**Campus Bridge** is a next-generation platform designed to integrate academic learning with coding skill development for university students. It combines a Learning Management System (LMS) with coding practice environments, fostering an engaging, personalized learning experience.
 
-## How can I edit this code?
+This project offers academic courses, coding challenges, and collaborative spaces along with AI-powered assistance, enabling students to enhance their knowledge and problem-solving skills efficiently.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Features & Modules
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c2587b2c-d421-440e-8c73-3f977c05bbbf) and start prompting.
+### 1. **Student Dashboard**
+The **Student Dashboard** offers a holistic view of your academic progress, coding achievements, and upcoming deadlines. It displays:
+- **Active Courses**: Overview of enrolled courses and progress.
+- **Coding Problems**: Track your progress with coding challenges.
+- **Assignments Due**: Keep an eye on upcoming assignments and exams.
+- **Coding Streak**: Monitor your consistency in coding practice.
+- **Upcoming Events**: See scheduled lectures, assignments, and exams.
 
-Changes made via Lovable will be committed automatically to this repo.
+![Student Dashboard](./path-to-image1.png)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 2. **Academic Courses**
+Students can browse, enroll, and track progress in a variety of academic courses, including:
+- **Introduction to Computer Science**
+- **Web Development Fundamentals**
+- **Database Management Systems**
+  
+Courses are structured with content such as videos, PDFs, quizzes, and assignments for comprehensive learning.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+![Academic Courses](./path-to-image2.png)
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 3. **AI Coding Assistant**
+The **AI Coding Assistant** helps students solve coding issues by providing real-time suggestions, debugging, and explaining coding concepts. 
+- **Code Optimization**: Get suggestions for improving your code.
+- **Debugging**: Ask for help with errors and get step-by-step guidance.
+- **Explanations**: Receive detailed explanations of algorithms, data structures, and code logic.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+![AI Assistant](./path-to-image3.png)
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 4. **Faculty Dashboard**
+Faculty members can track the progress of their students, upload learning materials, and manage assignments. Key features include:
+- **Course Management**: Add new materials, manage assignments, and monitor class progress.
+- **Attendance Tracking**: Keep track of student attendance.
+- **Student Analytics**: View detailed analytics of students’ performance in academic and coding tracks.
 
-**Edit a file directly in GitHub**
+![Faculty Dashboard](./path-to-image4.png)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+### 5. **Faculty Course Management**
+Faculty members can manage all aspects of their courses, including:
+- **Uploading Learning Materials**: Add documents, videos, quizzes, and assignments.
+- **Creating Content**: Schedule new lectures and set up assessments.
+- **Monitoring Student Performance**: Keep track of students' progress and provide targeted feedback.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+![Manage Courses](./path-to-image5.png)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+### 6. **Group Coding Rooms**
+The **Group Coding Rooms** feature facilitates real-time collaboration between students. Students can:
+- **Join Live Coding Sessions**: Work with peers on coding projects and assignments.
+- **Pair Programming**: Collaborate in real-time, sharing code and ideas.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+![Group Coding Rooms](./path-to-image6.png)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/c2587b2c-d421-440e-8c73-3f977c05bbbf) and click on Share -> Publish.
+### 7. **Club Activities**
+Campus Bridge also supports extracurricular activities through **Club Management**, where students can join various clubs and participate in events:
+- **Technical Clubs**: Coding Club, Robotics Society.
+- **Cultural Clubs**: Photography Club, Music Club.
 
-## Can I connect a custom domain to my Lovable project?
+![Club Activities](./path-to-image7.png)
 
-Yes it is!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### 8. **Admin Dashboard**
+The **Admin Dashboard** provides a comprehensive overview of the platform’s performance:
+- **Student and Faculty Statistics**: View metrics on the total number of students and faculty members.
+- **Enrollment Trends**: Analyze student enrollment trends across various programs.
+- **Course Completion Rates**: Track the completion rates of courses across departments.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+![Admin Dashboard](./path-to-image8.png)
+
+---
+
+### 9. **Reports & Analytics**
+Admins can generate detailed reports to monitor the platform’s performance, including:
+- **Program Enrollment Distribution**: Visualize student enrollment by program.
+- **Student Progress**: Track the completion rates and attendance for each department.
+
+![Reports & Analytics](./path-to-image9.png)
+
+---
+
+## Tech Stack Used
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **AI Integration:** Gemini/GPT for real-time code assistance
+- **Authentication:** Firebase
+- **WebSockets:** Real-time collaboration for Group Coding Rooms
+- **Cloud Storage:** AWS S3
+
+---
+
+## How to Run the Project Locally
+
+### Prerequisites:
+- **Node.js** (v14 or above)
+- **MongoDB** (or use MongoDB Atlas for cloud storage)
+- **Firebase** (for authentication)
+
+### 1. Clone the Repository:
+```bash
+git clone https://github.com/yourusername/campus-bridge.git
